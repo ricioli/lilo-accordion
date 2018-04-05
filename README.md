@@ -17,8 +17,26 @@ Plugin para accordion em jQuery. Simples, leve e personalizável.
 ```
 ### Mova o lilo para o projeto
 ### Linque a folha de estilo
+> Exemplo:
+```
+<link rel="stylesheet" href="css/lilo-accordion.min.css">
+```
 ### Adicione o script do plugin
+> Exemplo:
+```
+<script
+src="https://code.jquery.com/jquery-3.3.1.min.js"
+integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+crossorigin="anonymous"></script>
+<script src="js/jquery.lilo.accordion.min.js"></script>
+```
 ### Inicialize o accordion
+> Exemplo:
+```
+<script>
+  $('.your-class').liloAccordion();
+</script>
+```
 
 ## Configurações
 ### Manter apenas um item aberto
