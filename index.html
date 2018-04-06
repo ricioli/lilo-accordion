@@ -4,8 +4,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta http-equiv="X-UA-compatible" content="IE=Edge, chrome=1">
     <meta charset="utf-8">
-    <meta name="description" content="Free Web tutorials">
-    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="description" content="Plugin de accordion em jquery. Simples, leve e personalizável">
+    <meta name="keywords" content="plugin,jquery,accordion,javascript,js">
     <meta name="author" content="Alex Ricioli, Elton Pongilo">
     <title>Lilo Accordion | Simples, leve e personalizavel.</title>
     <link rel="shortcut icon" href="img/icon.jpg">
@@ -19,14 +19,25 @@
       <header class="header flex middle-xs center-xs">
         <div class="text-center in-space-b-xl">
           <h1 class="text-header">LILO ACCORDION</h1>
-          <span class="text-lg text-white block out-space-t-sm">Simples, leve e personalizável</span>
           <a href="https://github.com/ricioli/lilo-accordion/archive/master.zip" class="btn btn-primary out-space-h-xs out-space-t-lg">DOWNLOAD</a>
           <a href="https://github.com/ricioli/lilo-accordion" class="btn btn-ghost out-space-h-xs out-space-t-lg" target="_blank">GITHUB</a>
         </div>
       </header>
+      <section class="about in-space-t-xxl in-space-b-xxl">
+        <div class="container flex in-space-md">
+          <div class="whole-xs four-md in-space-md">
+            <h2 class="text-lg in-space-b-md">
+              Plugin de accordion em jquery. Simples, leve e personalizável
+            </h2>
+          </div>
+          <div class="whole-xs eight-md in-space-md">
+            Lilo accordion é um plugin de jquery simples de ser implementado, e que não está atrelado a nenhum estilo predefinido, permitindo uma flexibilidade de personalização. O plugin contém as funcionalidades necessárias para os diversos comportamentos de um accordion.
+          </div>
+        </div>
+      </section>
       <section class="how-to-use in-space-t-xl in-space-b-xxl">
         <header class="whole-xs in-space-lg">
-          <h2 class="text-xl text-center">Como usar?</h2>
+          <h3 class="text-xl text-center">Como usar?</h3>
         </header>
         <div class="in-space-md">
           <div id="how-to-use-accordion" class="how-to-use-accordion">
@@ -109,14 +120,14 @@
       </section>
       <section class="in-space-t-xxl in-space-b-xxl">
         <header class="whole-xs in-space-lg">
-          <h2 class="text-xl text-center">Configurações</h2>
+          <h3 class="text-xl text-center">Configurações</h3>
         </header>
         <div class="container flex">
           <div class="whole-xs half-md in-space-md">
             <div class="config-box">
               <h4 class="text-md">Manter apenas um item aberto</h4>
               <span class="text-sm text-secundary">Apenas um item do accordion ficará aberto</span>
-              <span class="text-sm text-secundary block in-space-t-md">Parametro: onlyOneActive</span>
+              <span class="text-sm text-secundary block in-space-t-md">Parâmetro: onlyOneActive</span>
               <span class="text-sm text-secundary block">Tipo: boolean</span>
               <span class="text-sm text-secundary block">Padrão: true</span>
             </div>
@@ -125,7 +136,7 @@
             <div class="config-box">
               <h4 class="text-md">Deixar o primeiro item aberto</h4>
               <span class="text-sm text-secundary">Ao carregar a página o primeiro item do accordion já vem aberto</span>
-              <span class="text-sm text-secundary block in-space-t-md">Parametro: initFirstActive</span>
+              <span class="text-sm text-secundary block in-space-t-md">Parâmetro: initFirstActive</span>
               <span class="text-sm text-secundary block">Tipo: boolean</span>
               <span class="text-sm text-secundary block">Padrão: true</span>
             </div>
@@ -134,7 +145,7 @@
             <div class="config-box">
               <h4 class="text-md">Desativar o plugin</h4>
               <span class="text-sm">Ideal para sites que precisam do accordion no mobile e não no desktop</span>
-              <span class="text-sm text-secundary block in-space-t-md">Parametro: destructor</span>
+              <span class="text-sm text-secundary block in-space-t-md">Parâmetro: destructor</span>
               <span class="text-sm text-secundary block">Tipo: boolean</span>
               <span class="text-sm text-secundary block">Padrão: false</span>
             </div>
@@ -143,7 +154,7 @@
             <div class="config-box">
               <h4 class="text-md">Ocultar os controles</h4>
               <span class="text-sm text-secundary">Este item funciona se o plugin accordion estiver desativado</span>
-              <span class="text-sm text-secundary block in-space-t-md">Parametro: hideControl</span>
+              <span class="text-sm text-secundary block in-space-t-md">Parâmetro: hideControl</span>
               <span class="text-sm text-secundary block">Tipo: boolean</span>
               <span class="text-sm text-secundary block">Padrão: false</span>
             </div>
@@ -152,7 +163,7 @@
             <div class="config-box">
               <h4 class="text-md">Fechar o atual e abrir o próximo</h4>
               <span class="text-sm text-secundary">Ao clicar no controle do item aberto,  fecha o item atual e abre o próximo</span>
-              <span class="text-sm text-secundary block in-space-t-md">Parametro: openNextOnClose</span>
+              <span class="text-sm text-secundary block in-space-t-md">Parâmetro: openNextOnClose</span>
               <span class="text-sm text-secundary block">Tipo: boolean</span>
               <span class="text-sm text-secundary block">Padrão: false</span>
             </div>
