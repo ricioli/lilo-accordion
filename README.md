@@ -105,7 +105,10 @@ $('.your-class').liloAccordion({
 });
 ```
 
-## Licence
+## Acesse nosso site
+[Lilo Acordion](https://ricioli.github.io/lilo-accordion/)
+
+## Licença
 
 MIT License (MIT)
 
