@@ -42,7 +42,7 @@ crossorigin="anonymous"></script>
 ### Manter apenas um item aberto
 Apenas um item do accordion ficará aberto
 ```
-Parametro: onlyOneActive
+Parâmetro: onlyOneActive
 Tipo: boolean
 Padrão: true
 ```
@@ -55,7 +55,7 @@ $('.your-class').liloAccordion({
 ### Deixar o primeiro item aberto
 Ao carregar a página o primeiro item do accordion já vem aberto
 ```
-Parametro: initFirstActive
+Parâmetro: initFirstActive
 Tipo: boolean
 Padrão: true
 ```
@@ -68,7 +68,7 @@ $('.your-class').liloAccordion({
 ### Desativar o plugin
 Ideal para sites que precisam do accordion no mobile e não no desktop
 ```
-Parametro: destructor
+Parâmetro: destructor
 Tipo: boolean
 Padrão: false
 ```
@@ -81,7 +81,7 @@ $('.your-class').liloAccordion({
 ### Ocultar os controles
 Este item funciona se o plugin accordion estiver desativado
 ```
-Parametro: hideControl
+Parâmetro: hideControl
 Tipo: boolean
 Padrão: false
 ```
@@ -94,7 +94,7 @@ $('.your-class').liloAccordion({
 ### Fechar o atual e abrir o próximo
 Ao clicar no controle do item aberto, fecha o item atual e abre o próximo
 ```
-Parametro: openNextOnClose
+Parâmetro: openNextOnClose
 Tipo: boolean
 Padrão: false
 ```
