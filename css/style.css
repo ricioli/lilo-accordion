@@ -155,6 +155,7 @@ code {
 }
 .text-lg {
   font-size: 1.25rem;/* 20px */
+  line-height: 1.5rem;/* 24px */
 }
 .text-xl {
   font-size: 2.375rem; /* 38px */
@@ -228,6 +229,7 @@ code {
 }
 .how-to-use {
   background: #fafafa;
+  border-top: .063rem solid #e8e8e8; /* 1px */
   border-bottom: .063rem solid #e8e8e8; /* 1px */
 }
 .how-to-use-accordion {
@@ -279,6 +281,7 @@ code {
   /*================================== Textos ==================================*/
   .text-lg {
     font-size: 1.5rem;/* 24px */
+    line-height: 1.625rem;/* 26px */
   }
   .text-xl {
     font-size: 3rem;/* 48px */
@@ -297,6 +300,16 @@ code {
     -ms-flex-preferred-size: 50%;
     flex-basis: 50%;
     max-width: 50%;
+  }
+  .eight-md {
+    -ms-flex-preferred-size: 66.667%;
+    flex-basis: 66.667%;
+    max-width: 66.667%;
+  }
+  .four-md {
+    -ms-flex-preferred-size: 33.333%;
+    flex-basis: 33.333%;
+    max-width: 33.333%;
   }
   .menu-item:not(.on):hover {
     opacity: .8;
